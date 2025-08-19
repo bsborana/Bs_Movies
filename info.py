@@ -32,35 +32,35 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
-F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://crazygaming4694:crazygaming4694@cluster0.v77dv.mongodb.net/?retryWrites=true&w=majority")   # This Db Is For File Data Store
-S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://bharvadboy747:bharvadboy747@cluster0.ru582.mongodb.net/?retryWrites=true&w=majority")   # This Db is for File Data Store When First Db Is Going To Be Full.
+F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://bhawani99:bhawani99@cluster0.dtym2zu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For File Data Store
+S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://bhawani999:bhawani999@cluster0.pgg7pf6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db is for File Data Store When First Db Is Going To Be Full.
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002795214031'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002084819782')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002795214031'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002507055818 ')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001842030728'))  # set shortner log channel
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002960243645')) # The movie you upload in it will be deleted from the bot.
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001842030728'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1002370814149 ')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002787363481'))
 request_channel = environ.get('REQUEST_CHANNEL', 'LOG_CHANNEL') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002507055818')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+0PWRuaxAv0RiZWQ1') #Support group link ( make sure bot is admin )
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002370814149')) # 
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+__q3keUyPrU5NjA1') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/akimax_03")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/akimax_03")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/akimax_03")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/howtoopenurlshorlink/55")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/howtoopenurlshorlink/55")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/howtoopenurlshorlink/55")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "de20394ac3c17f42a2a636168dd67df9820047c9")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'linkpays.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "de20394ac3c17f42a2a636168dd67df9820047c9")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'linkpays.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "de20394ac3c17f42a2a636168dd67df9820047c9")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'linkpays.in')
+SHORTENER_API = environ.get("SHORTENER_API", "dd35748733debff9d1cccec6a8e7f9f712b1d504")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'gplinks.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "dd35748733debff9d1cccec6a8e7f9f712b1d504")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'gplinks.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "dd35748733debff9d1cccec6a8e7f9f712b1d504")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'gplinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "28200"))
 #---------------------------------------------------------------
